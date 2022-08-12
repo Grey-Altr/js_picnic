@@ -8,21 +8,21 @@ const watermelon = document.getElementById('watermelon');
 
 
 soda.addEventListener('click', () => {
-    soda.classList.add('picked');
+    soda.classList.toggle('picked');
 });
 
 cheese.addEventListener('click', () => {
-    cheese.classList.add('picked');
+    cheese.classList.toggle('picked');
 });
 
 grapes.addEventListener('click', () => {
-    grapes.classList.add('picked');
+    grapes.classList.toggle('picked');
 });
 
 bread.addEventListener('click', () => {
-    bread.classList.add('picked');
+    bread.classList.toggle('picked');
 });
 
 watermelon.addEventListener('click', () => {
-    watermelon.classList.add('picked');
+    watermelon.classList.toggle('picked');
 });
